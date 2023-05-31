@@ -1,0 +1,30 @@
+{
+    "name": "camaleaun/localize",
+    "description": "REST API endpoint to retrieve current server datetime with remote IP and GPS coordinates of request.",
+    "type": "wordpress-plugin",
+    "require": {
+        "camaleaun/php-geolocation-coordinates": "dev-trunk"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "4.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Camaleaun\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gilberto Tavares",
+            "email": "gilbertoetavares@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/camaleaun/php-geolocation-coordinates.git"
+        }
+    ]
+}

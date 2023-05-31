@@ -1,0 +1,15 @@
+.distignore
+.editorconfig
+.git
+.gitignore
+.github
+.travis.yml
+.DS_Store
+Thumbs.db
+bin
+composer.json
+composer.lock
+phpunit.xml.dist
+.phpcs.xml.dist
+README.md
+tests

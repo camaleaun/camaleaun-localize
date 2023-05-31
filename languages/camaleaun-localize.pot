@@ -1,0 +1,56 @@
+# Copyright (C) 2023 Camaleaun
+# This file is distributed under the same license as the Camaleaun Localize plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Camaleaun Localize 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/camaleaun-localize\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-31T12:07:13-03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: camaleaun-localize\n"
+
+#. Plugin Name of the plugin
+msgid "Camaleaun Localize"
+msgstr ""
+
+#. Description of the plugin
+msgid "REST API endpoint to retrieve current server datetime with remote IP and GPS coordinates of request."
+msgstr ""
+
+#. Author of the plugin
+msgid "Camaleaun"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://camaleaun.cz/en/"
+msgstr ""
+
+#: camaleaun-localize.php:20
+msgid "Error locating autoloader. Please run <code>composer install</code>."
+msgstr ""
+
+#: includes/Localize.php:70
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/Localize.php:82
+#: includes/Localize/RestApi/Utilities/SingletonTrait.php:60
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/Localize/RestApi/Controllers/Version1/LocalizeController.php:94
+msgid "The current server datetime in the site's timezone."
+msgstr ""
+
+#: includes/Localize/RestApi/Controllers/Version1/LocalizeController.php:100
+msgid "Remote IP from request."
+msgstr ""
+
+#: includes/Localize/RestApi/Controllers/Version1/LocalizeController.php:106
+msgid "GPS coordinates (Latitude/Longitude) from the remote IP."
+msgstr ""
